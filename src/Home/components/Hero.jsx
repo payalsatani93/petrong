@@ -3,7 +3,7 @@ import React from 'react'
 export default function Hero() {
   return (
     <div>
-      <p>hello</p>
+      <p>he  llo  </p>
     </div>
   )
 }
