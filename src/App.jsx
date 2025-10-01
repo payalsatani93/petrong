@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Hero from './Home/components/Hero'
 import './App.css'
+
+import Navbar from './components/Navbar'
 import About from './components/About'
 
 function App() {
@@ -11,7 +13,10 @@ function App() {
   return (
     <>
       <div className="">
+
         <Hero />
+        <Navbar/>
+        <About/>
       </div>
     </>
   )
