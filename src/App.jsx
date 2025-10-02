@@ -8,16 +8,21 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Ourservices from './components/Ourservices'
 
+import Expertise from './My compoments/Expertise.jsx'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <div className="">
-        <Hero />
+         {/* <Hero /> */}
         <Navbar/>
-        <About/>
-        <Ourservices/>
+        {/* <About/>
+        <Ourservices/>  */}
+        
+        <Expertise/>
+
       </div>
     </>
   )
