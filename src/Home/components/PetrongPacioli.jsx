@@ -21,7 +21,7 @@ function PetrongPacioli() {
             Petrong & Pacioli
           </h1>
           <p className="text-slate-700 leading-relaxed text-wrap w-1/1">
-            Pacioli is the flagship product at petrong software solutions, a
+            Pacioli is the flagship product   at petrong software solutions, a
             tailored digital lending tools that helps microfinance institutions
             to efficiently and quickly onboard customers and to account
             reconciliation with financial inclution as the motivation. Pacioli
