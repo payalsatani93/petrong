@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Hero() {
   return (
     <section className="grid md:grid-cols-2">
