@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div className="">
-        {/* <Hero /> */}
+        <Hero />
         <Navbar/>
         <About/>
       </div>
