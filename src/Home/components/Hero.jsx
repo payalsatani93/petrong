@@ -16,6 +16,7 @@ function Navbar() {
   );
 }
 
+
 function Hero() {
   return (
     <section className="grid grid-cols-2">
