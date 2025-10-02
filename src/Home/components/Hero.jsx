@@ -1,3 +1,4 @@
+
 import React from "react";
 function Navbar() {
   return (
@@ -55,11 +56,13 @@ function Hero() {
   );
 }
 
-export default function App() {
+import React from 'react'
+
+
+export default function Hero() {
   return (
     <div>
-      <Navbar />
-      <Hero />
+      <p>he  llo  </p>
     </div>
-  );
+  )
 }
