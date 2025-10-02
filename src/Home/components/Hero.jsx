@@ -24,7 +24,7 @@ function Hero() {
           Get the next <br /> level developments.
         </h1>
         <p className="mt-4 text-gray-300 max-w-md">
-          Every line of code we deliver is carefully crafted by our in-house
+          Every line of code we deliver is   carefully crafted by our in-house
           team of professional developers. While constantly looking for new
           horizons, challenges, and opportunities in web development, we focus
           on these core areas:
