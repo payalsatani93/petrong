@@ -7,6 +7,13 @@ import './App.css'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Ourservices from './components/Ourservices'
+
+import Ourcoresrv from './Home/components/Ourcoresrv'
+import Partnership from './Home/components/Partnership'
+import Testomonial from './Home/components/Testomonial'
+import PetrongPacioli from './Home/components/PetrongPacioli'
+import OurPromise from './Home/components/OurPromise'
+
 import Servicescard from './components/Servicescard'
 import Ourvalue from './components/Ourvalue'
 import Ourteams from './components/Ourteams'
@@ -20,6 +27,17 @@ function App() {
   return (
     <>
       <div className="">
+
+        <Hero />
+        <Ourcoresrv/>
+        <Partnership/>
+        <Testomonial/>
+        <PetrongPacioli/>
+        <OurPromise/>
+      {/*   <Navbar/>
+        <About/>
+        <Ourservices/> */}
+
         {/* <Hero /> */}
         <Navbar/>
         {/* <About/>
