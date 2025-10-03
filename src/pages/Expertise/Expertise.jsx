@@ -3,6 +3,7 @@ import React from "react";
 export default function Expertise() {
   return (
     <div>
+
       {/* Header Section */}
       <div className="bg-[#EBFAF4] py-8 xl:py-15 px-6 md:px-16 relative">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between relative">
@@ -32,6 +33,35 @@ export default function Expertise() {
                 We provide reliable service to our client that is <br />
                 unbeatable
               </p>
+
+      {/* Section-1 */}
+      <div className="bg-[#EBFAF4] py-12 px-6 md:px-16 flex flex-col md:flex-row items-center gap-8">
+        {/* Image */}
+        <div className="md:w-1/2 w-full flex justify-center">
+          <img
+            src="/Image/Expertise.png"
+            alt="Expertise"
+            className="w-full max-w-md md:max-w-lg aspect-[3/2] object-cover rounded-2xl"
+          />
+        </div>
+
+        {/* Text + Circle */}
+        <div className="md:w-1/2 w-full flex flex-col relative px-6 py-10">
+          {/* Circle */}
+          <div
+            className="hidden xl:block absolute 
+             xl:bottom-[91px] xl:right-[251px]  md:w-32 md:h-32 
+             bg-[#7BEBC1] rounded-full z-10"
+          ></div>
+
+          {/* Content */}
+          <div className="text-center max-w-2xl z-10">
+            <div className="flex items-center justify-center mb-4">
+              <div className="w-15 h-[4px] bg-[#4FD1A1] mr-2"></div>
+              <h2 className="text-3xl md:text-4xl font-bold text-black">
+                EXPERTISE
+              </h2>
+
             </div>
           </div>
         </div>
