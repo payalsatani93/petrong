@@ -16,7 +16,7 @@ export default function Expertise() {
         </div>
 
         {/* Text + Circle */}
-        <div className="md:w-1/2 w-full flex flex-col relative    px-6 py-10">
+        <div className="md:w-1/2 w-full flex flex-col relative px-6 py-10">
           {/* Circle */}
           <div
             className="hidden xl:block absolute 
