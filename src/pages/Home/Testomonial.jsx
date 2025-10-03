@@ -30,7 +30,15 @@ function Testimonial() {
           <div className="flex  text-gray-500 text-sm mt-2 gap-10">
             <span>CEO</span>
             <span>Leonard Technologies</span>
-            
+            <div className="absolute right-[-40px] top-1/2 transform -translate-y-1/2 flex flex-col gap-2 ">
+              <button className="p-2 rounded-full border bg-white hover:bg-emerald-500 hover:text-white transition">
+                ▲
+              </button>
+              <button className="p-2 rounded-full border bg-white hover:bg-emerald-500 hover:text-white transition">
+                ▼
+              </button>
+            </div>
+
           </div>
         </div>
       </div>

@@ -7,6 +7,7 @@ export default function Blog() {
     <div>
         <Bloghero/>
         <Mobliedevelopment/>
-    </div>
+
+   </div>
   )
 }
