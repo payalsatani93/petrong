@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 
 export default function Expertise() {
   return (
@@ -180,15 +179,6 @@ export default function Expertise() {
           Contact
         </button>
       </div>
-    </div>
-  );
-}
-
-export function App() {
-  return (
-    <div>
-      <Navbar />
-      <Expertise />
     </div>
   );
 }

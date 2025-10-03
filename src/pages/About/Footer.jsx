@@ -108,9 +108,9 @@ export default function Footer() {
             <span> Phone: (234) 0800-000-0000</span>
           </p>
           <p className="flex items-center space-x-2 mt-2 text-sm sm:text-base text-emerald-400">
-            <MdEmail className="text-emerald-50" />
+            <MdEmail className="text-emerald-50" /> </p>
           <p><span className="text-amber-50"> E-mail:</span> info@petrongsolutions.com</p>  
-          </p>
+         
 
           <div className="mt-6">
             <img
