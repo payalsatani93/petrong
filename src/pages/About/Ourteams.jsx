@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function OurTeam() {
+export default function Ourteams() {
   const team = [
     {
       name: "Rasheed Ogunusi",
