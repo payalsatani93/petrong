@@ -7,7 +7,7 @@ export default function AboutUs() {
         {/* Left Side - Image */}
         <div className="relative">
           <img
-            src="/Image/About1.png"
+            src="/Image/about1.png"
             alt="Laptop with code"
             className="rounded-lg shadow-lg"
           />
@@ -36,7 +36,9 @@ export default function AboutUs() {
             empower businesses.
           </h2>
           <p className="text-gray-600 mt-4 leading-relaxed">
+
             Lorem Ipsum is simply dummy text of the printing and industry. Lorem
+
             Ipsum has been the industry's standard text ever since the 1500s,
             when an unknown printer took of type and scrambled it to make a type
             specimen book.
