@@ -29,7 +29,11 @@ export default function Expertise() {
             <div className="flex items-center justify-center mb-4">
               <div className="w-15 h-[4px] bg-[#4FD1A1] mr-2"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-black">
-                EXPERTISEsdgf
+
+          
+
+                EXPERTISE
+
               </h2>
             </div>
             <p className="text-black text-lg md:text-2xl font-bold">
