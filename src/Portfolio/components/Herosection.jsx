@@ -1,9 +1,8 @@
 import React from 'react'
 
-export default function Nav() {
+export default function Herosection() {
   return (
     <div>
-      
     </div>
   )
 }

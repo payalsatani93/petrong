@@ -66,32 +66,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
-      {isOpen && (
-        <ul className="md:hidden mt-4 space-y-3 text-white font-medium">
-          <li>
-            <a href="#">HOME</a>
-          </li>
-          <li>
-            <a href="#">ABOUT</a>
-          </li>
-          <li>
-            <a href="#">PORTFOLIO</a>
-          </li>
-          <li>
-            <a href="#">PRODUCT</a>
-          </li>
-          <li>
-            <a href="#">EXPERTISE</a>
-          </li>
-          <li>
-            <a href="#">CONTACT</a>
-          </li>
-          <li>
-            <a href="#">BLOG</a>
-          </li>
-        </ul>
-      )}
+   
     </nav>
   );
 }
