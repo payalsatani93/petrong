@@ -11,25 +11,25 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-white ">
           <li>
-            <a href="#">HOME</a>
+            <a href="/">HOME</a>
           </li>
           <li>
-            <a href="#">ABOUT</a>
+            <a href="/About">ABOUT</a>
           </li>
           <li>
-            <a href="#">PORTFOLIO</a>
+            <a href="/Portfolio">PORTFOLIO</a>
           </li>
           <li>
-            <a href="#">PRODUCT</a>
+            <a href="/Product">PRODUCT</a>
           </li>
           <li>
-            <a href="#">EXPERTISE</a>
+            <a href="/Expertise">EXPERTISE</a>
           </li>
           <li>
-            <a href="#">CONTACT</a>
+            <a href="/Contact">CONTACT</a>
           </li>
           <li>
-            <a href="#">BLOG</a>
+            <a href="/Blog">BLOG</a>
           </li>
         </ul>
 
