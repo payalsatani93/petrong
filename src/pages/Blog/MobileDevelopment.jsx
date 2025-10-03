@@ -48,7 +48,7 @@ export default function Blog() {
             {/* Description */}
             <p className="text-gray-600">
               Design is an important visual element that revolves in our daily
-              lives. We don’t run from it — we utilise and make use of it.
+              lives. We don’t run from it — we  utilise and make use of it.
             </p>
           </div>
         </div>
