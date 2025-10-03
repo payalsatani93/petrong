@@ -1,8 +1,9 @@
 import React from 'react'
 
-export default function Herosection() {
+export default function Blog() {
   return (
     <div>
+      
     </div>
   )
 }

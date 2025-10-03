@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function About() {
+export default function AboutUs() {
   return (
     <section className="bg-green-50 py-16 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
