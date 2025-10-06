@@ -14,6 +14,7 @@ import Blog from "./pages/Blog/Blog";
 import Product from "./pages/Product/Product";
 
 
+
 function App() {
   
   return (
@@ -28,6 +29,8 @@ function App() {
         <Route path="/Expertise" element={<Expertise/>} />
         <Route path="/Contact" element={<Contact />} />        
         <Route path="/Blog" element={<Blog/>} />
+      
+
 
 
       </Routes>

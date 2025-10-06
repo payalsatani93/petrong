@@ -26,9 +26,14 @@ export default function Ourvalue() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Side - Values */}
         <div>
-          <p className="text-green-500 font-semibold mb-2 text-3xl ">---OUR VALUE</p>
+          <div className="flex items-center justify-center md:justify-start mb-4">
+            <span className="w-12 h-1 bg-green-400 rounded mr-3"></span>
+            <p className="text-green-500 font-semibold uppercase text-lg tracking-wide">
+              Our Value
+            </p>
+          </div>
           <h2 className="text-3xl sm:text-4xl font-bold mb-8">
-            A melting pot for the <br/> best idea
+            A melting pot for the <br /> best idea
           </h2>
 
           <div className="space-y-8">

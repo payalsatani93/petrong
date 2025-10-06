@@ -18,11 +18,13 @@ export default function OurPromise() {
     },
     {
       icon: <MonitorSmartphone className="w-8 h-8 text-gray-600" />,
+      icon: <MonitorSmartphone className="w-8 h-8 text-gray-600" />,
       title: "Responsive",
       description:
         "We know you look for positive attitude, timely reactions, and flexibility. We are here to listen and give the utmost of our capabilities.",
     },
     {
+      icon: <Users className="w-8 h-8 text-gray-600" />,
       icon: <Users className="w-8 h-8 text-gray-600" />,
       title: "Rockstar Team",
       description:
@@ -30,20 +32,27 @@ export default function OurPromise() {
     },
     {
       icon: <Undo2 className="w-8 h-8 text-gray-600" />,
+      icon: <Undo2 className="w-8 h-8 text-gray-600" />,
       title: "Fast Turn-arounds",
       description:
+        "Speed matters no less than quality. We are fast, agile and capable of delivering top-notch code in a timeframe chosen by you.",
         "Speed matters no less than quality. We are fast, agile and capable of delivering top-notch code in a timeframe chosen by you.",
     },
     {
       icon: <LifeBuoy className="w-8 h-8 text-gray-600" />,
       title: "Life-time Support",
+      icon: <LifeBuoy className="w-8 h-8 text-gray-600" />,
+      title: "Life-time Support",
       description:
+        "The ultimate proof of our code quality: you get our non-expiring support. If any bugs appear in the future, just write us a line.",
         "The ultimate proof of our code quality: you get our non-expiring support. If any bugs appear in the future, just write us a line.",
     },
     {
       icon: <ShieldCheck className="w-8 h-8 text-gray-600" />,
+      icon: <ShieldCheck className="w-8 h-8 text-gray-600" />,
       title: "Secured Agreement",
       description:
+        "Your artwork is fully yours and we would never claim otherwise. You get our word and our full willingness to sign an NDA.",
         "Your artwork is fully yours and we would never claim otherwise. You get our word and our full willingness to sign an NDA.",
     },
   ];
@@ -58,6 +67,7 @@ export default function OurPromise() {
           As part of our high quality service, we'd like to offer something
           extra too.
         </p>
+      </div>
       </div>
 
       {/* Cards Grid */}
