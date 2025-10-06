@@ -5,9 +5,12 @@ function Mobileapplication() {
     <section className="bg-black text-white py-12 px-6 md:px-16">
       {/* Heading + Subtitle */}
       <div className="max-w-5xl mx-auto text-center md:text-left mb-10">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-emerald-500">
-          ---Mobile & Web Applications
-        </h2>
+        <div className="flex items-center justify-center md:justify-start mb-4">
+          <span className="w-12 h-1 bg-green-400 rounded mr-3"></span>
+          <p className="text-green-500 font-semibold uppercase text-lg tracking-wide">
+           Mobile & Web Applications
+          </p>
+        </div>
         <p className="text-gray-300 text-base md:text-lg">
           We help create solutions that optimize processes, improve
           accessibility to data, and increase successful outcomes by providing

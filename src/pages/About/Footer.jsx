@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom"; // ✅ You forgot this import
 import {
   FaInstagram,
   FaFacebookF,
   FaLinkedinIn,
   FaPhoneAlt,
-  FaYoutube, // ✅ Added YouTube
+  FaYoutube,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -22,18 +23,23 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold text-lg mb-4">QUICK LINKS</h3>
           <ul className="space-y-2">
-            {["Home", "About", "Projects", "Contact", "Blog", "Our Policy"].map(
-              (link) => (
-                <li key={link}>
-                  <a
-                    href="#"
-                    className="hover:text-emerald-400 transition-colors"
-                  >
-                    {link}
-                  </a>
-                </li>
-              )
-            )}
+            {[
+              { name: "Home", path: "/" },
+              { name: "About", path: "/about" },
+              { name: "Product", path: "/product" },
+              { name: "Contact", path: "/contact" },
+              { name: "Blog", path: "/blog" },
+              { name: "Our Policy", path: "/policy" },
+            ].map((link) => (
+              <li key={link.name}>
+                <Link
+                  to={link.path}
+                  className="hover:text-emerald-400 transition-colors"
+                >
+                  {link.name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 
@@ -99,22 +105,23 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:text-emerald-400 transition-colors"
             >
-              <FaYoutube /> {/* ✅ YouTube Icon */}
+              <FaYoutube />
             </a>
           </div>
 
           <p className="flex items-center space-x-2 text-sm sm:text-base">
             <FaPhoneAlt className="text-emerald-50" />
-            <span> Phone: (234) 0800-000-0000</span>
+            <span>Phone: (234) 0800-000-0000</span>
           </p>
           <p className="flex items-center space-x-2 mt-2 text-sm sm:text-base text-emerald-400">
-            <MdEmail className="text-emerald-50" /> </p>
-          <p><span className="text-amber-50"> E-mail:</span> info@petrongsolutions.com</p>  
-         
+            <MdEmail className="text-emerald-50" />
+            <span className="text-amber-50">E-mail:</span>{" "}
+            info@petrongsolutions.com
+          </p>
 
           <div className="mt-6">
             <img
-              src="/Image/Logo.png" // 🔹 Replace with your logo path
+              src="/Image/Logo.png"
               alt="Company Logo"
               className="h-12"
             />

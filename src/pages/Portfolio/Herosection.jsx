@@ -15,14 +15,16 @@ export default function Herosection() {
 
         {/* Right Side - Text */}
         <div>
-          <h4 className="text-green-600 font-semibold tracking-wide ">
-            ---OUR PORTFOLIO
-          </h4>
+          <div className="flex items-center justify-center md:justify-start mb-4">
+            <span className="w-12 h-1 bg-green-400 rounded mr-3"></span>
+            <p className="text-green-500 font-semibold uppercase text-lg tracking-wide">
+              OUR PORTFOLIO
+            </p>
+          </div>
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mt-2">
             A glimpse of some of our project and people we’ve fortunate to work
             with
           </h2>
-         
         </div>
       </div>
     </section>
