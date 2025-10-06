@@ -11,7 +11,7 @@ export default function Expertise() {
             <img
               src="/Image/Expertise.png"
               alt="Expertise"
-              className="w-full max-w-md md:max-w-lg aspect-[3/2] object-cover rounded-2xl shadow-lg"
+              className="w-full max-w-md md:max-w-lg aspect-[3/2] object-cover rounded-2xl"
             />
           </div>
 
@@ -40,7 +40,7 @@ export default function Expertise() {
       <div className="flex flex-col md:flex-row items-center justify-center py-2 px-6 md:px-16">
         {/* Content */}
         <div className="md:w-1/2 w-full flex justify-center md:justify-start">
-          <div className="bg-white p-3 md:p-10 w-full text-center xl:text-start ">
+          <div className="bg-white p-3 md:p-10 text-center xl:text-start ">
             <p className="text-gray-500 text-lg md:text-2xl font-bold">01</p>
             <h2 className="text-2xl md:text-4xl font-bold text-black mt-2">
               Digital Product Design
@@ -53,42 +53,42 @@ export default function Expertise() {
             </p>
             <ul className="mt-4 space-y-3 w-full">
               <li className="flex items-center gap-2 justify-center md:justify-start">
-                <span className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></span>
+                <span className="w-3 h-3 bg-emerald-500 rounded-full flex-shrink-0"></span>
                 <span className="text-sm sm:text-base md:text-lg  md:text-left">
                   Design Workshops
                 </span>
               </li>
 
               <li className="flex items-center gap-2 justify-center md:justify-start">
-                <span className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></span>
+                <span className="w-3 h-3 bg-emerald-500 rounded-full flex-shrink-0"></span>
                 <span className="text-sm sm:text-base md:text-lg  md:text-left">
                   UX &amp; UI Consulting
                 </span>
               </li>
 
               <li className="flex items-center gap-2 justify-center md:justify-start">
-                <span className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></span>
+                <span className="w-3 h-3 bg-emerald-500 rounded-full flex-shrink-0"></span>
                 <span className="text-sm sm:text-base md:text-lg md:text-left">
                   Creative Direction
                 </span>
               </li>
 
               <li className="flex items-center gap-2 justify-center md:justify-start">
-                <span className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></span>
+                <span className="w-3 h-3 bg-emerald-500 rounded-full flex-shrink-0"></span>
                 <span className="text-sm sm:text-base md:text-lg  md:text-left">
                   Prototyping
                 </span>
               </li>
 
               <li className="flex items-center gap-2 justify-center md:justify-start">
-                <span className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></span>
+                <span className="w-3 h-3 bg-emerald-500 rounded-full flex-shrink-0"></span>
                 <span className="text-sm sm:text-base md:text-lg md:text-left">
                   Usability Testing
                 </span>
               </li>
             </ul>
 
-            <button className="mt-6 px-6 py-2 bg-green-500 text-white rounded-md border border-none">
+            <button className="mt-6 px-6 py-2 bg-emerald-500 text-white rounded-md border border-none">
               Read More
             </button>
           </div>
@@ -99,7 +99,7 @@ export default function Expertise() {
           <img
             src="/Image/Digital Product.png"
             alt="Digital Product"
-            className="w-full max-w-xs xl:absolute xl:top-120 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl aspect-square object-cover rounded-2xl"
+            className="w-full max-w-xs xl:absolute xl:top-120 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl  object-cover rounded-2xl"
           />
         </div>
       </div>
@@ -111,13 +111,13 @@ export default function Expertise() {
           <img
             src="/Image/Mobile Development.png"
             alt="Web & Mobile Development"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl aspect-square object-cover rounded-2xl"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl  object-cover rounded-2xl"
           />
         </div>
 
         {/* Content */}
         <div className="md:w-1/2 w-full flex justify-center md:justify-start order-1 md:order-2">
-          <div className="bg-white p-3 md:p-10 w-full text-center xl:text-start ">
+          <div className="bg-white p-3 md:p-10  text-center xl:text-start ">
             <p className="text-gray-500 text-lg md:text-2xl font-bold">02</p>
             <h2 className="text-2xl md:text-4xl font-bold text-black mt-2">
               Web & Mobile Development
@@ -131,7 +131,7 @@ export default function Expertise() {
               results-driven team, we can provide modern, scalable, and easily
               maintainable software solutions.
             </p>
-            <button className="mt-6 px-6 py-2 bg-green-500 text-white rounded-md">
+            <button className="mt-6 px-6 py-2 bg-emerald-500 text-white rounded-md">
               Read More
             </button>
           </div>
@@ -141,7 +141,7 @@ export default function Expertise() {
       <div className="flex flex-col md:flex-row items-center justify-center py-2 px-6 md:px-16">
         {/* Content */}
         <div className="md:w-1/2 w-full flex justify-center md:justify-start">
-          <div className="bg-white p-3 md:p-10 w-full text-center xl:text-start ">
+          <div className="bg-white p-3 md:p-10  text-center xl:text-start ">
             <p className="text-gray-500 text-lg md:text-2xl font-bold">03</p>
             <h2 className="text-2xl md:text-4xl font-bold text-black mt-2">
               Cloud, DevOps & Deployment
@@ -161,7 +161,7 @@ export default function Expertise() {
               silos, collaborate more effectively, and achieve a cultural shift
               that supports DevOps thinking.
             </p>
-            <button className="mt-6 px-6 py-2 bg-green-500 text-white rounded-md ">
+            <button className="mt-6 px-6 py-2 bg-emerald-500 text-white rounded-md ">
               Read More
             </button>
           </div>
@@ -172,7 +172,7 @@ export default function Expertise() {
           <img
             src="/Image/DevOps Deployment.png"
             alt="Cloud & DevOps"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl aspect-square object-cover rounded-2xl"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl  object-cover rounded-2xl"
           />
         </div>
       </div>

@@ -14,11 +14,11 @@ export default function Blog() {
       </div>
 
       {/* Navigation + Search */}
-      <div className="bg-white p-5">
+      <div className="bg-white p-5 shadow-md">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 max-w-6xl mx-auto">
           {/* Menu */}
           <ul className="flex flex-wrap justify-center md:justify-center gap-4 md:gap-8 text-lg md:text-xl">
-            <li className="text-green-500 underline">
+            <li className="text-emerald-500 underline">
               <a href="#">Home</a>
             </li>
             <li>
@@ -42,7 +42,7 @@ export default function Blog() {
               placeholder="Search..."
               className=" pl-2 pr-7 py-2 border border-gray-300 rounded-md"
             />
-            <AiOutlineSearch className="h-10 w-10 bg-black text-green-500 rounded-md" />
+            <AiOutlineSearch className="h-10 w-10 p-2 bg-black text-emerald-500 rounded-md" />
           </div>
         </div>
       </div>

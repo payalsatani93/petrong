@@ -40,8 +40,7 @@ export default function BlogSingle() {
             <img
               src="/Image/Enjoyholiday.png"
               alt="Blog"
-              className="max-w-full w-full h-auto rounded-lg mb-4"
-            />
+              className="max-w-full w-full h-auto rounded-lg mb-4"/>
 
             <h2 className="text-2xl font-semibold mb-4">
               More Design Insights

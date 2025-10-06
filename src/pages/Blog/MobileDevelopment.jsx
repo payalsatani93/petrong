@@ -3,6 +3,7 @@ import React from "react";
 export default function Blog() {
   return (
     <div className="flex flex-col">
+      {/* section-2 */}
       <div className="max-w-6xl mx-auto p-5">
         {/* Responsive Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -40,16 +41,90 @@ export default function Blog() {
             </div>
 
             {/* Highlighted Text */}
-            <p className="text-green-500 text-xl font-medium mb-3">
-              How To Design The Perfect Hero   Image: Guide,   Practical Tips and
+            <p className="text-emerald-500 text-xl font-medium mb-3">
+              How To Design The Perfect Hero Image: Guide, Practical Tips and
+
               Examples
             </p>
 
             {/* Description */}
             <p className="text-gray-600">
               Design is an important visual element that revolves in our daily
-              lives. We don’t run from it — we  utilise and make use of it.
+              lives. We don’t run from it — we utilise and make use of it.
             </p>
+            <button
+              className="bg-emerald-500 w-25 p-1 rounded-sm text-white 
+                   mx-auto block lg:mx-0 lg:ml-0"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Section-2 */}
+      <div className="max-w-6xl mx-auto p-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Content-1 */}
+          <div className="w-full text-center lg:text-left flex flex-col justify-center">
+            {/* Highlighted Text */}
+            <p className="text-emerald-500 text-xl font-medium mb-3">
+              How To Design The Perfect Hero Image: Guide, Practical Tips and
+              Examples
+            </p>
+
+            {/* Description */}
+            <p className="text-gray-600">
+              Design is an important visual element that revolves in our daily
+              lives. We don’t run from it — we utilise and make use of it.
+            </p>
+            <button
+              className="bg-emerald-500 w-25 p-1 rounded-sm text-white 
+                   mx-auto block lg:mx-0 lg:ml-0"
+            >
+              Read More
+            </button>
+          </div>
+
+          {/* Content-2 */}
+          <div className="w-full text-center lg:text-left flex flex-col justify-center">
+            {/* Highlighted Text */}
+            <p className="text-emerald-500 text-xl font-medium mb-3">
+              How To Design The Perfect Hero Image: Guide, Practical Tips and
+              Examples
+            </p>
+            {/* Description */}
+            <p className="text-gray-600">
+              Design is an important visual element that revolves in our daily
+              lives. We don’t run from it — we utilise and make use of it.
+            </p>
+            <button
+              className="bg-emerald-500 w-25 p-1 rounded-sm text-white 
+                   mx-auto block lg:mx-0 lg:ml-0"
+            >
+              Read More
+            </button>
+          </div>
+
+          {/* Content-3 */}
+          <div className="w-full text-center lg:text-left flex flex-col justify-center">
+            {/* Highlighted Text */}
+            <p className="text-emerald-500 text-xl font-medium mb-3">
+              How To Design The Perfect Hero Image: Guide, Practical Tips and
+              Examples
+            </p>
+
+            {/* Description */}
+            <p className="text-gray-600">
+              Design is an important visual element that revolves in our daily
+              lives. We don’t run from it — we utilise and make use of it.
+            </p>
+            <button
+              className="bg-emerald-500 w-25 p-1 rounded-sm text-white 
+                   mx-auto block lg:mx-0 lg:ml-0"
+            >
+              Read More
+            </button>
           </div>
         </div>
       </div>
