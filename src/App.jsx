@@ -20,6 +20,7 @@ import Designeffect from "./pages/Blog/designeffectslider3";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+
 function App() {
   return (
     <Router>

@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import RightSlider from "./Right-Slider";
 
 export default function BlogSingle() {
@@ -38,8 +40,7 @@ export default function BlogSingle() {
             <img
               src="/Image/Enjoyholiday.png"
               alt="Blog"
-              className="w-full h-auto object-contain rounded-lg mb-4"
-            />
+              className="max-w-full w-full h-auto rounded-lg mb-4"/>
 
             <h2 className="text-2xl font-semibold mb-4">
               More Design Insights

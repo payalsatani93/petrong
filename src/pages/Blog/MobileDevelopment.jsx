@@ -43,6 +43,7 @@ export default function Blog() {
             {/* Highlighted Text */}
             <p className="text-emerald-500 text-xl font-medium mb-3">
               How To Design The Perfect Hero Image: Guide, Practical Tips and
+
               Examples
             </p>
 

@@ -30,7 +30,7 @@ function Ourcoresrv() {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto p-8 md:flex md:gap-20 items-center mt-20 justify-evenly">
+    <section className="max-w-6xl mx-auto p-8 md:flex md:gap-20 items-center mt-10 justify-evenly">
       {/* Left Image */}
       <div className="md:w-1/3 ">
         <img
