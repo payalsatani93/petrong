@@ -11,11 +11,10 @@ export default function Home() {
     <>
       <Hero />
       <Ourcoresrv/>
-      <OurPromise/>
       <Partnership/>
       <Testomonial/>
       <PetrongPacioli/>
-     
+       <OurPromise/>     
     </>
   );
 }

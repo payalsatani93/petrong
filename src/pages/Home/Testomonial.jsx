@@ -1,6 +1,6 @@
 import React from "react";
 
-function Testimonial() {
+export default function Testimonial() {
   return (
     <section className="bg-blue-50 flex flex-col md:flex-row items-center  justify-around  px-6 py-16 md:px-16">
       {/* Left Text Section */}
@@ -54,5 +54,3 @@ function Testimonial() {
     </section>
   );
 }
-
-export default Testimonial;
