@@ -3,7 +3,7 @@ import React from "react";
 function PetrongPacioli() {
   return (
     <section className="flex flex-col md:flex-row relative h-auto md:h-[500px]">
-      {/* Left Side: Image with outside shadow (top, left, bottom only) /}
+       {/* Left Side: Image with outside shadow (top, left, bottom only)  */}
       <div className="w-full md:w-1/2 h-64 md:h-full flex items-center justify-center bg-black">
         <img
           src="public/Image/Partnership-hero.jpg"
@@ -14,7 +14,7 @@ function PetrongPacioli() {
         />
       </div>
 
-      {/ Right Side: Content */}
+       {/* Right Side: Content  */}
       <div className="w-full md:w-1/2 bg-[#ebfaf4] flex items-center justify-center p-6 md:p-12 lg:p-16">
         <div className="max-w-lg">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-slate-900">
