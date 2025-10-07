@@ -6,7 +6,7 @@ function Ourcoresrv() {
       title: "Web Development",
       description:
         "We convert any design file: PSD, Sketch, Figma, Adobe XD to pixel-perfect, semantic, and standard-compliant HTML/CSS templates.",
-      image: "/Image/home-web.png", // replace with your image path
+      image: "/Image/home-web.png", 
     },
     {
       title: "Mobile Applications",
