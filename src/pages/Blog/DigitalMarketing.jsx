@@ -6,13 +6,13 @@ export default function Blog() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
         {/* Left Section */}
         <div className="">
-          {/* Heading with line */}
+          {/* Heading And line */}
           <div className="flex items-center gap-4 mb-1">
             <h3 className="text-3xl font-semibold">Digital Marketing</h3>
             <div className="flex-1 h-[2px]  bg-[#4FD1A1]" />
           </div>
 
-          {/* Blog Item 1 */}
+          {/* Item 1 */}
           <div className="mb-3 text-center lg:text-start">
             <h4 className="text-emerald-500 font-semibold text-2xl">
               <p>
@@ -30,7 +30,7 @@ export default function Blog() {
             </button>
           </div>
 
-          {/* Blog Item 2 */}
+          {/* Item 2 */}
           <div className="mb-3 text-center lg:text-start">
             <h4 className="text-emerald-500 font-semibold text-2xl">
               <p>
@@ -48,7 +48,7 @@ export default function Blog() {
             </button>
           </div>
 
-          {/* Blog Item 3 */}
+          {/* Item 3 */}
           <div className="mb-6 text-center lg:text-start">
             <h4 className="text-emerald-500 font-semibold text-2xl">
               <p>
@@ -68,9 +68,8 @@ export default function Blog() {
         </div>
 
         {/* Right Section */}
-        {/* Right Section */}
         <div className="flex flex-col gap-6">
-          {/* Responsive image wrapper */}
+          {/*  Image and Content */}
           <div className="w-full aspect-video">
             <img
               src="/Image/DigitalMarketing.png"
