@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function Ourcoresrv() {
   const services = [
     {
@@ -30,22 +29,23 @@ function Ourcoresrv() {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto p-8 md:flex md:gap-20 items-center mt-10 justify-evenly">
+    <section className="max-w-6xl mx-auto p-8 md:flex md:gap-20 mt-10 justify-evenly ">
       {/* Left Image */}
-      <div className="md:w-1/3 ">
-        <img
-          src="public/Image/home-2.jpg"
-          alt="Core Services"
-          className=" rounded-lg "
-        />
+      <div className="md:w-1/2 ">
+        <img src="public/Image/home-2.jpg" alt="Core Services" />
       </div>
 
       {/* Right Content */}
-      <div className="md:w-1/2 ">
-        <h2 className="text-3xl font-bold mb-4 text-slate-900">Our Core Services</h2>
-        <p className="mb-6 text-slate-700">
-          Our technology solutions are perfectly designed to ensure the virtual world meets your needs.
-        </p>
+      <div className="md:w-1/2 mt-5">
+        <div className="max-w-7xl mx-auto text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+           Our Core Services
+          </h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            As part of our high quality service, we'd like to offer something
+            extra too.
+          </p>
+        </div>
 
         <ul className="space-y-6">
           {services.map((service, index) => (
@@ -59,7 +59,9 @@ function Ourcoresrv() {
                 />
               </div>
               <div>
-                <h3 className="font-semibold text-slate-900">{service.title}</h3>
+                <h3 className="font-semibold text-slate-900">
+                  {service.title}
+                </h3>
                 <p className="text-slate-600">{service.description}</p>
               </div>
             </li>
@@ -68,7 +70,6 @@ function Ourcoresrv() {
       </div>
     </section>
   );
-  
 }
 
 export default Ourcoresrv;
