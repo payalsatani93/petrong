@@ -15,7 +15,7 @@ export default function Expertise() {
             />
           </div>
 
-          {/* Text + Decorative Circle */}
+          {/* Text and Circle */}
           <div className="md:w-1/2 w-full flex flex-col relative px-6 py-10">
             {/* Circle */}
             <div className="hidden xl:block absolute bottom-[92px] right-[70px] w-32 h-32 bg-[#7BEBC1] rounded-full z-0"></div>
@@ -37,7 +37,7 @@ export default function Expertise() {
         </div>
       </div>
       {/* Section 1 - Digital Product Design */}
-      <div className="flex flex-col md:flex-row items-center justify-center py-2 px-6 md:px-16">
+      <div className="flex flex-col md:flex-row max-w-7xl mx-auto items-center justify-self-center-center py-2 px-6 md:px-16">
         {/* Content */}
         <div className="md:w-1/2 w-full flex justify-center md:justify-start">
           <div className="bg-white p-3 md:p-10 text-center xl:text-start ">
@@ -105,7 +105,7 @@ export default function Expertise() {
       </div>
 
       {/* Section 2 - Web & Mobile Development */}
-      <div className="flex flex-col md:flex-row items-center justify-center py-2 px-6 md:px-16 ">
+      <div className="flex flex-col md:flex-row max-w-7xl mx-auto items-center justify-center py-2 px-6 md:px-16 ">
         {/* Image */}
         <div className="md:w-1/2 w-full flex justify-center items-center order-2 md:order-1">
           <img
@@ -138,7 +138,7 @@ export default function Expertise() {
         </div>
       </div>
       {/* Section 3 - Cloud, DevOps & Deployment */}
-      <div className="flex flex-col md:flex-row items-center justify-center py-2 px-6 md:px-16">
+      <div className="flex flex-col md:flex-row max-w-7xl mx-auto items-center justify-center py-2 px-6 md:px-16">
         {/* Content */}
         <div className="md:w-1/2 w-full flex justify-center md:justify-start">
           <div className="bg-white p-3 md:p-10  text-center xl:text-start ">
