@@ -1,5 +1,3 @@
-// src/pages/Blog/RightSlider.jsx
-import React from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 
@@ -54,7 +52,7 @@ export default function RightSlider() {
       {slides.map((slide) => (
         <div key={slide.id} className="p-3">
           <Link to={slide.link} className="block">
-            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+            <div className="bg-white shadow-lg">
               {/* Image */}
               <img
                 src={slide.src}

@@ -1,7 +1,7 @@
 import React from "react";
 export default function Hero() {
   return (
-    <section className="mb-33">
+    <section>
       <div className="flex lg:h-180 flex-col lg:flex-row ">
         {/* Left Section */}
         <div className="bg-black text-white flex flex-col justify-center p-8 w-full lg:w-2/2">

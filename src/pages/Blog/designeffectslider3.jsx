@@ -3,9 +3,8 @@ import RightSlider from "./Right-Slider";
 export default function BlogSingle() {
   return (
     <div className="w-full flex flex-col items-center md:items-start md:text-left mb-8 p-6">
-      {/* ===== Wrapper for All Sections ===== */}
       <div className="max-w-7xl w-full mx-auto flex flex-col gap-10">
-        {/* ===== Section 1 : Content Only ===== */}
+        {/*Content*/}
         <div className="flex flex-col">
           {/* Categories */}
           <div className="flex gap-5 mb-4 justify-center md:justify-start">
@@ -23,7 +22,7 @@ export default function BlogSingle() {
           {/* Author Info */}
           <div className="flex items-center gap-3 justify-center md:justify-start">
             <img
-              src="/Image/Singleblog-img.png.png"
+              src="/Image/Singleblog-img.png"
               alt="Author"
               className="w-12 h-12 rounded-full"
             />
@@ -31,9 +30,9 @@ export default function BlogSingle() {
           </div>
         </div>
 
-        {/* ===== Section 2 : Blog Content + Slider ===== */}
+        {/* Content and Slider */}
         <div className="flex flex-col md:flex-row gap-6">
-          {/* Left Side Blog Content */}
+          {/* Left Side image and Content */}
           <div className="md:w-2/3 w-full">
             <img
               src="/Image/Slider-img.png"
@@ -45,8 +44,8 @@ export default function BlogSingle() {
               More Design Insights
             </h2>
             <p className="mb-4">
-              2021 is slowly reaching its end. This year’s UI design trends and
-              UX trends will gently move aside to let next year’s winners take
+              2021 is slowly reaching its end. This year's UI design trends and
+              UX trends will gently move aside to let next year's winners take
               their place.
             </p>
             <p className="mb-4">
@@ -60,13 +59,13 @@ export default function BlogSingle() {
               yourself from the competition is by improving your UX/UI design.
             </p>
             <p>
-              And don’t get me wrong, you might have one of the top user
-              interface designs of the past, but if you don’t update it, you’ll
+              And don't get me wrong, you might have one of the top user
+              interface designs of the past, but if you don't update it, you'll
               most likely end up with an old website.
             </p>
           </div>
 
-          {/* Right Side Vertical Slider */}
+          {/* Right Side Slider */}
           <div className="md:w-1/3 w-full">
             <RightSlider />
           </div>

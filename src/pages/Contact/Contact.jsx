@@ -53,7 +53,7 @@ export default function ContactUs() {
               </p>
             </div>
             <h1 className="text-4xl font-semibold text-gray-900 mt-2 mb-6">
-              Let’s build something <br /> awesome together
+              Let's build something <br /> awesome together
             </h1>
 
             <form className="space-y-4">
@@ -98,9 +98,9 @@ export default function ContactUs() {
 
           {/* Right: Contact Details */}
           <div className="lg:w-1/2 flex justify-evenly items-center ">
-            <div className="flex flex-col space-y-40 relative">
+            <div className="flex flex-col space-y-20 relative">
               {/* Vertical Line */}
-              <div className="absolute left-5 top-0 -bottom-20 w-px bg-gray-300"></div>
+              <div className="absolute left-5 top-0 -bottom-8 w-px bg-gray-300"></div>
 
               {/* Address */}
               <div className="flex items-start space-x-3 relative">
