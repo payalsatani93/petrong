@@ -13,7 +13,7 @@ export default function Blog() {
         />
       </div>
 
-      {/* Navigation + Search */}
+      {/* Navigation and Search */}
       <div className="bg-white p-5 shadow-md">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 max-w-6xl mx-auto">
           {/* Menu */}
@@ -40,7 +40,7 @@ export default function Blog() {
             <input
               type="text"
               placeholder="Search..."
-              className=" pl-2 pr-7 py-2 border border-gray-300 rounded-md"
+              className=" pl-2 pr-7 py-2 rounded-md"
             />
             <AiOutlineSearch className="h-10 w-10 p-2 bg-black text-emerald-500 rounded-md" />
           </div>

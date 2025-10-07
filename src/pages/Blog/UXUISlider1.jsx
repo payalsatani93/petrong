@@ -38,7 +38,7 @@ export default function BlogSingle() {
             <img
               src="/Image/UIUXDesign.png"
               alt=""
-              className="w-full mb-4 rounded-lg"
+              className="w-full mb-4 rounded-lg object-contain"
             />
             <h2 className="text-2xl font-semibold mb-4">
               More Design Insights

@@ -5,9 +5,8 @@ import RightSlider from "./Right-Slider";
 export default function BlogSingle() {
   return (
     <div className="w-full flex flex-col items-center md:items-start md:text-left mb-8 p-6">
-      {/* ===== Wrapper for All Sections ===== */}
       <div className="max-w-7xl w-full mx-auto flex flex-col gap-10">
-        {/* ===== Section 1 : Content Only ===== */}
+        {/* Content */}
         <div className="flex flex-col">
           {/* Categories */}
           <div className="flex gap-5 mb-4 justify-center md:justify-start">
@@ -15,14 +14,14 @@ export default function BlogSingle() {
             <p className="underline cursor-pointer">Design</p>
           </div>
 
-          {/* Blog Title */}
+          {/* Title */}
           <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center md:text-left">
             8 UX/UI Trends That Will Dominate The Web Design World{" "}
             <br className="hidden md:block" />
             in 2022
           </h1>
 
-          {/* Author Info */}
+          {/* User Info */}
           <div className="flex items-center gap-3 justify-center md:justify-start">
             <img
               src="/Image/Singleblog-img.png"
@@ -33,14 +32,14 @@ export default function BlogSingle() {
           </div>
         </div>
 
-        {/* ===== Section 2 : Blog Content + Slider ===== */}
+        {/* Content and Slider */}
         <div className="flex flex-col md:flex-row gap-6">
-          {/* Left Side Blog Content */}
+          {/* Left Side image and Content */}
           <div className="md:w-2/3 w-full">
             <img
               src="/Image/Enjoyholiday.png"
               alt="Blog"
-              className="max-w-full w-full h-auto rounded-lg mb-4"/>
+              className="max-w-full w-full h-auto object-contain rounded-lg mb-4"/>
 
             <h2 className="text-2xl font-semibold mb-4">
               More Design Insights
@@ -67,7 +66,7 @@ export default function BlogSingle() {
             </p>
           </div>
 
-          {/* Right Side Vertical Slider */}
+          {/* Right Side Slider */}
           <div className="md:w-1/3 w-full">
             <RightSlider />
           </div>
