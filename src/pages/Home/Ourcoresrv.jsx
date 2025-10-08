@@ -29,7 +29,7 @@ function Ourcoresrv() {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto p-8 md:flex md:gap-20 mt-10 justify-evenly ">
+    <section className="max-w-6xl mx-auto p-8 md:flex md:gap-20 mt-10 justify-evenly " style={{ fontFamily: "var(--font-poppins)" }}>
       {/* Left Image */}
       <div className="md:w-1/2 ">
         <img src="public/Image/home-2.jpg" alt="Core Services" />

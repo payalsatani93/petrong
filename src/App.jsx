@@ -1,6 +1,4 @@
-// App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./pages/About/Navbar";
 
 // Pages
 import Home from "./pages/Home/Home";
@@ -17,27 +15,105 @@ import BlogSingle from "./pages/Blog/UXUISlider1";
 import EnjoyHoliday from "./pages/Blog/EnjoyHolidayslider2";
 import Designeffect from "./pages/Blog/designeffectslider3";
 
+import Navbar from "./pages/About/Navbar";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Navforhome from "./pages/Home/Navforhome";
 
 function App() {
   return (
     <Router>
-      <Navbar />
-
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="/Product" element={<Product />} />
-        <Route path="/Expertise" element={<Expertise />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Blog" element={<Blog />} />
-        <Route path="/blog-single" element={<BlogSingle />} />
-        <Route path="/enjoy-holiday" element={<EnjoyHoliday />} />
-        <Route path="/design-effect" element={<Designeffect />} />
+        <Route path="/" element={
+            <>
+              <Navforhome/>
+              <Home/>
+            </>
+          }/>
+        <Route
+          path="/About"
+          element={
+            <>
+              <Navbar />
+              <About />
+            </>
+          }
+        />
+        <Route
+          path="/Portfolio"
+          element={
+            <>
+              <Navbar />
+              <Portfolio />
+            </>
+          }
+        />
+        <Route
+          path="/Product"
+          element={
+            <>
+              <Navbar />
+              <Product />
+            </>
+          }
+        />
+        <Route
+          path="/Expertise"
+          element={
+            <>
+              <Navbar />
+              <Expertise />
+            </>
+          }
+        />
+        <Route
+          path="/Contact"
+          element={
+            <>
+              <Navbar />
+              <Contact />
+            </>
+          }
+        />
+        <Route
+          path="/Blog"
+          element={
+            <>
+              <Navbar />
+              <Blog />
+            </>
+          }
+        />
+        <Route
+          path="/blog-single"
+          element={
+            <>
+              <Navbar />
+              <BlogSingle />
+            </>
+          }
+        />
+        <Route
+          path="/enjoy-holiday"
+          element={
+            <>
+              <Navbar />
+              <EnjoyHoliday />
+            </>
+          }
+        />
+        <Route
+          path="/design-effect"
+          element={
+            <>
+              <Navbar />
+              <Designeffect />
+            </>
+          }
+        />
       </Routes>
+
       <Nextlevel />
       <Footer />
     </Router>
