@@ -1,22 +1,27 @@
 import React, { useState } from "react";
 
-export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false); // For mobile menu
-  const [showChat, setShowChat] = useState(false); // For chat box visibility
+export default function Navforhome() {
+  const [isOpen, setIsOpen] = useState(false); // Mobile menu state
+
+  // Menu items with page links
+  const menuItems = [
+    { name: "ABOUT", link: "/About" },
+    { name: "PORTFOLIO", link: "/Portfolio" },
+    { name: "PRODUCT", link: "/Product" },
+    { name: "EXPERTISE", link: "/Expertise" },
+    { name: "CONTACT", link: "/Contact" },
+    { name: "BLOG", link: "/Blog" },
+  ];
 
   return (
-    <div>
+   <div>
       {/* Navbar */}
-      <nav className="bg-slate-950 p-2 shadow-md   w-full ">
+      <nav className="bg-transparent p-2 text-white z-50   lg:flex lg:justify-end lg:right-50  w-full absolute">
         <div className="flex justify-between items-center">
-          {/* Logo */}
-          <img src="/Image/Logo.png" alt="logo" className="h-10" />
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-6 p-4 text-white">
-            <li>
-              <a href="/">HOME</a>
-            </li>
+           
             <li>
               <a href="/About">ABOUT</a>
             </li>
@@ -79,9 +84,7 @@ export default function Navbar() {
         {/* Mobile Menu Dropdown */}
         {isOpen && (
           <ul className="md:hidden mt-4 space-y-3 text-white bg-slate-800 p-4 rounded-lg">
-            <li>
-              <a href="/">HOME</a>
-            </li>
+            
             <li>
               <a href="/About">ABOUT</a>
             </li>
