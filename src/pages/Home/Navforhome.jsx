@@ -9,12 +9,24 @@ export default function Navforhome() {
       <nav className="w-full z-50 bg-transparent flex justify-end items-center px-10 py-10 lg:right-50 md:right-20 absolute">
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 lg:text-[20px] md:text-[15px] text-white font-poppins">
-          <li className="hover:text-green-400 cursor-pointer">ABOUT</li>
-          <li className="hover:text-green-400 cursor-pointer">PORTFOLIO</li>
-          <li className="hover:text-green-400 cursor-pointer">PRODUCT</li>
-          <li className="hover:text-green-400 cursor-pointer">EXPERTISE</li>
-          <li className="hover:text-green-400 cursor-pointer">CONTACT</li>
-          <li className="hover:text-green-400 cursor-pointer">BLOG</li>
+          <li>
+            <a href="/About">ABOUT</a>
+          </li>
+          <li>
+            <a href="/Portfolio">PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="/Product">PRODUCT</a>
+          </li>
+          <li>
+            <a href="/Expertise">EXPERTISE</a>
+          </li>
+          <li>
+            <a href="/Contact">CONTACT</a>
+          </li>
+          <li>
+            <a href="/Blog">BLOG</a>
+          </li>
         </ul>
 
         {/* Mobile Hamburger Button */}
@@ -64,17 +76,22 @@ export default function Navforhome() {
       {/* Mobile Menu */}
       {isOpen && (
         <ul className="w-full bg-black bg-opacity-90 flex flex-col items-center gap-6 py-6 font-medium md:hidden z-40 text-white mt-2">
-          {["ABOUT", "PORTFOLIO", "PRODUCT", "EXPERTISE", "CONTACT", "BLOG"].map(
-            (item) => (
-              <li
-                key={item}
-                className="hover:text-green-400 cursor-pointer"
-                onClick={() => setIsOpen(false)}
-              >
-                {item}
-              </li>
-            )
-          )}
+          {[
+            "ABOUT",
+            "PORTFOLIO",
+            "PRODUCT",
+            "EXPERTISE",
+            "CONTACT",
+            "BLOG",
+          ].map((item) => (
+            <li
+              key={item}
+              className="hover:text-green-400 cursor-pointer"
+              onClick={() => setIsOpen(false)}
+            >
+              {item}
+            </li>
+          ))}
         </ul>
       )}
     </>
