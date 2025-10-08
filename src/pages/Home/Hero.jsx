@@ -5,7 +5,7 @@ export default function Hero() {
 
   return (
     <section className="w-full h-full bg-white overflow-hidden z-0 relative " style={{ fontFamily: "var(--font-poppins)" }}>
-      <div className="bg-black lg:w-[90%] md:w[90%]  flex z-50  ">
+      <div className="bg-black lg:w-[90%] md:w[90%]  flex   ">
         <div className="border-0 xl:flex lg:flex md:flex sm:grid mt-15">
           {/* Hero Content */}
           <div
