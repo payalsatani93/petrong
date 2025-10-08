@@ -21,8 +21,8 @@ export default function Footer() {
       <div className="relative max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Quick Links */}
         <div>
-          <h3 className="text-white font-semibold text-lg mb-4">QUICK LINKS</h3>
-          <ul className="space-y-2">
+          <h3 className="text-white  font-Montserrat font-semibold text-[16px] mb-4">QUICK LINKS</h3>
+          <ul className="space-y-2 text-[13px] text-Montserrat text-gray-400">
             {[
               { name: "Home", path: "/" },
               { name: "About", path: "/about" },
@@ -34,7 +34,7 @@ export default function Footer() {
               <li key={link.name}>
                 <Link
                   to={link.path}
-                  className="hover:text-emerald-400 transition-colors"
+                  className="hover:text-emerald-400 transition-colors "
                 >
                   {link.name}
                 </Link>
@@ -45,10 +45,10 @@ export default function Footer() {
 
         {/* Services */}
         <div>
-          <h3 className="text-white font-semibold text-lg mb-4">
+          <h3 className="text-white font-semibold text-[16px] mb-4 font-Montserrat">
             OUR SERVICES
           </h3>
-          <ul className="space-y-2">
+          <ul className="space-y-2 text-[13px] text-gray-400">
             <li>Web Development</li>
             <li>Digital Product Design</li>
             <li>Cloud / DevOps</li>
@@ -59,10 +59,10 @@ export default function Footer() {
 
         {/* Technologies */}
         <div>
-          <h3 className="text-white font-semibold text-lg mb-4">
+          <h3 className="text-white font-semibold text-[16px] mb-4 font-Montserrat">
             OUR TECHNOLOGIES
           </h3>
-          <ul className="space-y-2">
+          <ul className="space-y-2 text-[13px] text-gray-400">
             <li>Laravel Development</li>
             <li>React JS App Development</li>
             <li>Vue JS App Development</li>
@@ -71,7 +71,7 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <h3 className="text-white font-semibold text-lg mb-4">
+          <h3 className="text-white font-semibold text-[16px] mb-4 font-Montserrat">
             CONTACT & FOLLOW US
           </h3>
           <div className="flex space-x-4 mb-4 text-xl">
@@ -109,7 +109,7 @@ export default function Footer() {
             </a>
           </div>
 
-          <p className="flex items-center space-x-2 text-sm sm:text-base">
+          <p className="flex items-center space-x-2 text-[13px] sm:text-base">
             <FaPhoneAlt className="text-emerald-50" />
             <span>Phone: (234) 0800-000-0000</span>
           </p>
@@ -130,9 +130,8 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="relative border-t border-gray-700 text-center py-4 text-xs sm:text-sm text-gray-400">
-        © {new Date().getFullYear()} Petrong Software Solution - All Rights
-        Reserved
+      <div className="relative text-start p-9 text-xs sm:text-sm text-gray-300 font-Montserrat">
+        Petrong Software Solution Copyright 2022  - All Right Reserved
       </div>
     </footer>
   );
