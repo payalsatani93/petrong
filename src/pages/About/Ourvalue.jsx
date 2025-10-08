@@ -3,78 +3,106 @@ import React from "react";
 export default function Ourvalue() {
   const values = [
     {
+      id: 1,
       title: "Integrity",
-      description: "We hold ourselves to a strong ethical and moral code.",
-      icon: "/Image/About3.png",
+      description: "We hold ourself to a strong ethical and moral code.",
+      color: "text-red-500",
+      bg: "bg-white",
+      icon: "❤️",
     },
     {
+      id: 2,
       title: "Trust",
       description:
-        "We are dependable, loyal, and hard-working to achieve the same goal.",
-      icon: "/Image/About4.png",
+        "We are dependable, loyal, and hard working to achieve the same goal.",
+      color: "text-green-500",
+      bg: "bg-white",
+      icon: "💚",
     },
     {
+      id: 3,
       title: "Excellence",
       description:
         "We consistently strive to do high-quality work and give no room for error.",
-      icon: "/Image/About5.png",
+      color: "text-yellow-500",
+      bg: "bg-white",
+      icon: "💛",
     },
   ];
 
   return (
-    <section className="py-16 bg-white px-5 sm:px-8 md:px-12 lg:px-20">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-        {/* Left Section - Values */}
+    <section className="py-16 px-6 sm:px-10 md:px-16 lg:px-24 bg-white font-Poppins">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+        {/* ---------- LEFT SIDE ---------- */}
         <div>
-          {/* Heading */}
+          {/* Header */}
           <div className="flex items-center justify-center lg:justify-start mb-6">
-            <span className="w-12 h-1 bg-green-400 rounded mr-3"></span>
-            <p className="text-green-500 font-semibold uppercase text-base sm:text-lg tracking-wide">
+            <span className="w-12 h-[2px] bg-green-400 rounded mr-3"></span>
+            <p className="text-black font-medium uppercase text-[18px] tracking-wide">
               Our Value
             </p>
           </div>
 
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 leading-snug text-center lg:text-left">
+          <h2 className="text-[40px] sm:text-4xl md:text-[40px] font-medium leading-snug text-center lg:text-left text-[#0A0E2A] mb-10">
             A melting pot for the <br className="hidden sm:block" /> best ideas
           </h2>
 
-          {/* Values List */}
-          <div className="space-y-8">
-            {values.map((value, idx) => (
-              <div
-                key={idx}
-                className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left"
-              >
-                {/* Icon */}
-                <div className="flex-shrink-0 w-16 h-16 sm:w-12 sm:h-12 overflow-hidden rounded-full shadow-md mb-3 sm:mb-0">
-                  <img
-                    src={value.icon}
-                    alt={value.title}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+          {/* Timeline */}
+          <div className="relative">
+            {/* Vertical line */}
+            <div className="absolute left-[24px] top-8 bottom-12 w-[3px] bg-gray-200 hidden sm:block"></div>
 
-                {/* Text */}
-                <div className="sm:ml-5">
-                  <h3 className="text-lg sm:text-xl font-semibold">
-                    {value.title}
-                  </h3>
-                  <p className="mt-2 text-gray-600 text-sm sm:text-base">
-                    {value.description}
-                  </p>
+            {/* Value Items */}
+            <div className="space-y-10">
+              {values.map((value, index) => (
+                <div
+                  key={index}
+                  className="relative flex items-start gap-4 text-left"
+                >
+                  {/* Icon box */}
+                  <div
+                    className={`flex items-center justify-center mt-3 w-13 h-14 rounded-xl shadow-md ${value.bg} relative z-10`}
+                  >
+                    <span className={`text-xl ${value.color}`}>
+                      {value.icon}
+                    </span>
+                  </div>
+
+                  {/* Text content */}
+                  <div>
+                    <h3 className="font-semibold text-[18px] text-gray-900">
+                      {value.title}
+                    </h3>
+                    <p className="text-gray-500 mt-1 text-[18px] ">
+                      {value.description}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
 
-        {/* Right Section - Image */}
-        <div className="flex justify-center lg:justify-end">
-          <img
-            src="/Image/About2.png"
-            alt="Values"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-2xl shadow-xl object-cover"
-          />
+        {/* ---------- RIGHT SIDE ---------- */}
+        <div className="relative flex justify-center items-center w-full px-4 md:px-8 lg:px-16">
+          {/* Dotted Pattern */}
+          <div className="absolute hidden lg:grid grid-cols-6 gap-2 top-0 left-4 md:left-19 lg:left-10  xl:left-16 2xl:left-16">
+            {Array.from({ length: 54 }).map((_, i) => (
+              <span
+                key={i}
+                className="w-2 h-2 bg-green-400 rounded-full"
+              ></span>
+            ))}
+          </div>
+
+          {/* Image */}
+          <div className="rounded-xl overflow-hidden shadow-xl lg:mt-10">
+            <img
+              src="/Image/About2.png"
+              alt="Person coding on laptop"
+              className="w-60 sm:w-72 md:w-96 max-w-full object-cover"
+            />
+          </div>
         </div>
       </div>
     </section>

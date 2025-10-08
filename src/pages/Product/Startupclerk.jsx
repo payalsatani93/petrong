@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Startupclerk() {
   return (
-    <section className="py-16 bg-white relative overflow-hidden">
+    <section className="py-5 bg-white relative overflow-hidden">
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Text Section */}

@@ -103,68 +103,6 @@ export default function Navbar() {
           </ul>
         )}
       </nav>
-
-      {/* Floating Chat Button */}
-      <button
-        onClick={() => setShowChat(!showChat)}
-        className="fixed bottom-6 right-6 bg-green-500 text-white rounded-full p-4 shadow-lg hover:bg-green-600 transition z-40"
-      >
-        {/* Chat Icon */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-6 h-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          {showChat ? (
-            // Close (X)
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M6 18L18 6M6 6l12 12"
-            />
-          ) : (
-            // Chat Bubble
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M8 10h8m-8 4h5m-9 5v-2a9 9 0 1118 0v2a9 9 0 01-9 9H6z"
-            />
-          )}
-        </svg>
-      </button>
-
-      {/* Chat Box */}
-      {showChat && (
-        <div className="fixed bottom-20 right-6 bg-white w-80 rounded-2xl shadow-lg overflow-hidden z-40">
-          {/* Header */}
-          <div className="bg-green-500 text-white p-3 font-semibold flex justify-between items-center">
-            Chat with Us
-            <button onClick={() => setShowChat(false)}>✖</button>
-          </div>
-
-          {/* Messages Area */}
-          <div className="p-4 h-64 overflow-y-auto text-gray-700 space-y-3">
-            <div className="bg-gray-100 p-2 rounded-lg w-fit">Hello! 👋</div>
-            <div className="bg-green-100 p-2 rounded-lg w-fit ml-auto">
-              Hi! I’d like to know more.
-            </div>
-          </div>
-
-          {/* Input Area */}
-          <div className="border-t flex">
-            <input
-              type="text"
-              placeholder="Type your message..."
-              className="flex-1 p-2 outline-none"
-            />
-            <button className="bg-green-500 text-white px-4">Send</button>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
