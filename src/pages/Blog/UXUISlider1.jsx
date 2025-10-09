@@ -1,8 +1,12 @@
 import RightSlider from "./Right-Slider";
+import Navbar from "../About/Navbar";
+
 
 export default function BlogSingle() {
   return (
-    <div className="w-full flex flex-col items-center md:items-start md:text-left mb-8 p-6">
+    <div>
+        <Navbar/>
+       <div className="w-full flex flex-col items-center md:items-start md:text-left mb-8 p-6">
       {/* ===== Wrapper for All Sections ===== */}
       <div className="max-w-7xl w-full mx-auto flex flex-col gap-10">
         {/* ===== Section 1 : Content Only ===== */}
@@ -72,5 +76,7 @@ export default function BlogSingle() {
         </div>
       </div>
     </div>
+    </div>
+   
   );
 }

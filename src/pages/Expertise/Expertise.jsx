@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "../About/Navbar";
 
 export default function Expertise() {
   return (
     <div>
+      <Navbar/>
       {/* Header Section */}
       <div className="bg-[#EBFAF4] py-8 xl:py-15 px-6 md:px-16 relative">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between relative">
