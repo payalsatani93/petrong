@@ -25,7 +25,7 @@ export default function Ourteams() {
   ];
 
   return (
-    <section className="bg-black text-white py-16 px-5 sm:px-8 md:px-12 lg:px-20 font-Poppins">
+    <section className="bg-black text-white py-16 px-5 sm:px-8 md:px-12 lg:px-20 "style={{ fontFamily: "var(--font-Poppins)" }}>
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center md:text-left mb-12">

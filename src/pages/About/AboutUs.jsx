@@ -45,7 +45,7 @@ export default function AboutUs() {
           </div>
 
           {/* Right Side - Text */}
-          <div className="text-center md:text-left font-Poppins">
+          <div className="text-center md:text-left " style={{ fontFamily: "var(--font-Poppins)" }}>
             <div className="flex items-center justify-center md:justify-start mb-4">
               <span className="w-12 h-1 bg-green-400 rounded mr-3"></span>
               <p className="text-black font-semibold uppercase text-[18px] sm:text-base md:text-lg ">

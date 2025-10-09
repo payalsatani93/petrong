@@ -25,11 +25,11 @@ export default function BlogSingle() {
             {/* Author Info */}
             <div className="flex items-center gap-3 justify-center md:justify-start">
               <img
-                src="/Image/Singleblog-img.png"
+                src="/Image/Ellipse 184.png"
                 alt="Author"
                 className="w-12 h-12 rounded-full"
               />
-              <p className="text-gray-700 font-medium">By Prime Leonard</p>
+              <p className="text-gray-700 font-medium">By Rasheed</p>
             </div>
           </div>
 
