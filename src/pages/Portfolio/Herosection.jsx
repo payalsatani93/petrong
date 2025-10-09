@@ -5,16 +5,33 @@ export default function HeroSection() {
     <section className="bg-green-50 py-12 px-6 md:py-16">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* ✅ Left Side - Image */}
-        <div className="w-full md:w-1/3 flex justify-center">
-          <img
-            src="/Image/about1.png" // ✅ Correct path (no need for "public/")
-            alt="Laptop with code"
-            className="rounded-xl shadow-xl w-full max-w-md md:max-w-full object-cover"
-          />
+        <div className="relative flex justify-center">
+          {/* Decorative Dots */}
+          <div className="hidden md:hidden xl:block absolute -left-7 xl:top-51 lg:top-54  z-10">
+            <div className="grid grid-cols-6 gap-2">
+              {[...Array(108)].map((_, i) => (
+                <span
+                  key={i}
+                  className="w-2 h-2 bg-[#00D285] rounded-full opacity-80"
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* Image */}
+          <div className="relative">
+            <img
+              src="public/Image/about1.png"
+              alt="Laptop with code"
+              className="rounded-2xl  w-[95%] md:w-[90%] relative z-20"
+            />
+
+            
+          </div>
         </div>
 
         {/* ✅ Right Side - Text */}
-        <div className="w-full md:w-1/2 text-center md:text-left">
+        <div className="w-full md:w-1/2 text-center md:text-left mb-50">
           {/* Section Label */}
           <div className="flex items-center justify-center md:justify-start mb-4">
             <span className="w-12 h-1 bg-green-400 rounded mr-3"></span>
@@ -28,6 +45,16 @@ export default function HeroSection() {
             A glimpse of some of our projects and people we’ve been fortunate to
             work with
           </h2>
+        </div>
+        <div className="absolute hidden lg:block lg:right-30 lg:bottom-15 xl:right-30 xl:bottom-15">
+          <div className="grid grid-cols-8 gap-2">
+            {Array.from({ length: 64 }).map((_, i) => (
+              <span
+                key={i}
+                className="w-2 h-2 bg-green-400 rounded-full"
+              ></span>
+            ))}
+          </div>
         </div>
       </div>
     </section>

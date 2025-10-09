@@ -15,12 +15,17 @@ import EnjoyHoliday from "./pages/Blog/EnjoyHolidayslider2";
 import Designeffect from "./pages/Blog/designeffectslider3";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Navforhome from "./pages/Home/Navforhome";
+import Navbar from "./pages/About/Navbar";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 function App() {
   return (
     <Router>
       <Routes>
+
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Portfolio" element={<Portfolio />} />
@@ -31,6 +36,7 @@ function App() {
         <Route path="/blog-single" element={<BlogSingle />} />
         <Route path="/enjoy-holiday" element={<EnjoyHoliday />} />
         <Route path="/design-effect" element={<Designeffect />} />
+
       </Routes>
 
       <Nextlevel />
