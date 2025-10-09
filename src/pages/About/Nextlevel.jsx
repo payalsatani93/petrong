@@ -54,6 +54,9 @@ export default function Nextlevel() {
         </div>
       </section>
 
+    
+
+
       {/* ✅ Chatbox always on top of everything */}
       <div className="fixed bottom-6 right-6 z-50 font-Poppins">
       {/* Floating Chat Button */}
