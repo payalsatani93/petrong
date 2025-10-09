@@ -25,7 +25,7 @@ export default function BlogSingle() {
             {/* User Info */}
             <div className="flex items-center gap-3 justify-center md:justify-start">
               <img
-                src="/Image/Singleblog-img.png"
+                src="/Image/Ellipse 183.png"
                 alt="Author"
                 className="w-12 h-12 rounded-full"
               />

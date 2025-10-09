@@ -3,7 +3,7 @@ import React from "react";
 export default function Blog() {
   return (
     <div className="bg-white py-10 px-6 lg:px-16">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
+      <div className="max-w-6xl  mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
         {/* Left Section */}
         <div className="">
           {/* Heading And line */}
