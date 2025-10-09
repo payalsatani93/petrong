@@ -15,11 +15,12 @@ import BlogSingle from "./pages/Blog/UXUISlider1";
 import EnjoyHoliday from "./pages/Blog/EnjoyHolidayslider2";
 import Designeffect from "./pages/Blog/designeffectslider3";
 
-import Navbar from "./pages/About/Navbar";
+
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navforhome from "./pages/Home/Navforhome";
+import Navbar from "./pages/About/Navbar";
 
 function App() {
   return (
@@ -37,7 +38,6 @@ function App() {
           path="/About"
           element={
             <>
-              <Navbar />
               <About />
             </>
           }
@@ -46,7 +46,6 @@ function App() {
           path="/Portfolio"
           element={
             <>
-              <Navbar />
               <Portfolio />
             </>
           }
@@ -55,7 +54,6 @@ function App() {
           path="/Product"
           element={
             <>
-              <Navbar />
               <Product />
             </>
           }
@@ -64,7 +62,6 @@ function App() {
           path="/Expertise"
           element={
             <>
-              <Navbar />
               <Expertise />
             </>
           }
@@ -73,7 +70,6 @@ function App() {
           path="/Contact"
           element={
             <>
-              <Navbar />
               <Contact />
             </>
           }
@@ -82,7 +78,6 @@ function App() {
           path="/Blog"
           element={
             <>
-              <Navbar />
               <Blog />
             </>
           }
@@ -91,7 +86,6 @@ function App() {
           path="/blog-single"
           element={
             <>
-              <Navbar />
               <BlogSingle />
             </>
           }
@@ -100,7 +94,6 @@ function App() {
           path="/enjoy-holiday"
           element={
             <>
-              <Navbar />
               <EnjoyHoliday />
             </>
           }
@@ -109,7 +102,6 @@ function App() {
           path="/design-effect"
           element={
             <>
-              <Navbar />
               <Designeffect />
             </>
           }
