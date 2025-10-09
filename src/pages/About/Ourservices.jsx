@@ -4,7 +4,7 @@ export default function Ourservices() {
 
 
   return (
-    <section className="py-9 bg-white relative font-Poppins">
+    <section className="py-9 bg-white relative "style={{ fontFamily: "var(--font-Poppins)" }}>
       <div className="max-w-6xl   md:px-35 text-center md:text-left">
          {/* Section Header  */}
         <div className="flex items-center justify-center md:justify-start mb-4">

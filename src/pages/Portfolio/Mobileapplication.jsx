@@ -2,19 +2,19 @@ import React from "react";
 
 function Mobileapplication() {
   return (
-    <section className="bg-black text-white py-12 px-6 md:px-16">
+    <section className="bg-black text-white py-12 px-6 md:px-16 " style={{ fontFamily: "var(--font-Poppins)" }}>
       {/* Heading + Subtitle */}
       <div className="max-w-5xl mx-auto text-center md:text-left mb-10">
         <div className="flex items-center justify-center md:justify-start mb-4">
-          <span className="w-12 h-1 bg-green-400 rounded mr-3"></span>
-          <p className="text-green-500 font-semibold uppercase text-lg tracking-wide">
+          
+          <p className="text-white font-medium uppercase text-[29px] tracking-wide">
            Mobile & Web Applications
           </p>
         </div>
-        <p className="text-gray-300 text-base md:text-lg">
+        <p className="text-white text-[13px] ">
           We help create solutions that optimize processes, improve
           accessibility to data, and increase successful outcomes by providing
-          the necessary insights and tools to change physician and patient
+          the<br/> necessary insights and tools to change physician and patient
           behavior.
         </p>
       </div>

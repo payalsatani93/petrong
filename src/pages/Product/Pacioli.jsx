@@ -8,18 +8,18 @@ export default function Pacioli() {
         <div className="space-y-5 text-center md:text-left">
           <p className="text-gray-400 text-lg font-medium">01</p>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900">
+          <h2 className="text-[36px] sm:text-4xl lg:text-5xl font-bold text-gray-900" style={{ fontFamily: "var(--font-Poppins)" }}>
             Pacioli
           </h2>
 
-          <p className="text-gray-600 leading-relaxed text-base sm:text-lg">
+          <p className="text-gray-600  font-semibold text-[14px] sm:text-lg" style={{ fontFamily: "var(--font-Montserrat)" }}>
             Pacioli is the flagship product at Petrong Software Solutions — a
             tailored digital lending tool that helps microfinance institutions
             efficiently and quickly onboard customers and handle account
             reconciliation, with financial inclusion as the core motivation.
           </p>
 
-          <p className="text-gray-600 leading-relaxed text-base sm:text-lg">
+          <p className="text-gray-600  font-semibold text-[14px] sm:text-lg" style={{ fontFamily: "var(--font-Montserrat)" }}>
             Pacioli enhances female customer comfort by offering a service
             specifically designed to meet unique constraints and needs.
           </p>

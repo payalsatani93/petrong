@@ -38,7 +38,7 @@ function App() {
         <Route path="/design-effect" element={<Designeffect />} />
 
       </Routes>
-
+    
       <Nextlevel />
       <Footer />
     </Router>

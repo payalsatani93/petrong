@@ -17,24 +17,24 @@ export default function Kollegio() {
         <div className="space-y-5 text-center md:text-left order-2 md:order-2">
           <p className="text-gray-400 text-lg font-medium">02</p>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900">
+          <h2 className="text-[36px] sm:text-4xl lg:text-5xl font-bold text-gray-900" style={{ fontFamily: "var(--font-Poppins)" }}>
             Kollegio
           </h2>
 
-          <p className="text-gray-600 leading-relaxed text-base sm:text-lg">
+          <p className="text-gray-600 leading-relaxed text-[15px] font-medium sm:text-lg" style={{ fontFamily: "var(--font-Montserrat)" }}>
             Kollegio is a highly flexible and robust Learning Management System
             (LMS) designed for any kind of training — academic or professional.
             It’s dynamic enough for organizations to manage academic, vocational,
             and professional programs simultaneously.
           </p>
 
-          <p className="text-gray-600 leading-relaxed text-base sm:text-lg">
+          <p className="text-gray-600 leading-relaxed text-[15px] font-medium sm:text-lg" style={{ fontFamily: "var(--font-Montserrat)" }}>
             The platform includes live video classrooms, computer-based tests,
             video uploads, and eBooks in PDF format. Other admin tools include
             bulk emailing, audit trails, and access control.
           </p>
 
-          <p className="text-gray-600 leading-relaxed text-base sm:text-lg">
+          <p className="text-gray-600 leading-relaxed text-[15px] font-medium sm:text-lg" style={{ fontFamily: "var(--font-Montserrat)" }}>
             Kollegio is a leading LMS in the Nigerian EdTech ecosystem,
             developed with strong commitment, innovation, and user-centered
             design — ensuring both satisfaction and value.

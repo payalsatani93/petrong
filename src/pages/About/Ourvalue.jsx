@@ -31,7 +31,7 @@ export default function Ourvalue() {
   ];
 
   return (
-    <section className="py-16 px-6 sm:px-10 md:px-16 lg:px-24 bg-white font-Poppins">
+    <section className="py-16 px-6 sm:px-10 md:px-16 lg:px-24 bg-white "style={{ fontFamily: "var(--font-Poppins)" }}>
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
         {/* ---------- LEFT SIDE ---------- */}
         <div>
