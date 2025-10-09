@@ -10,102 +10,33 @@ import Nextlevel from "./pages/About/Nextlevel";
 import Footer from "./pages/About/Footer";
 import Blog from "./pages/Blog/Blog";
 import Product from "./pages/Product/Product";
-
 import BlogSingle from "./pages/Blog/UXUISlider1";
 import EnjoyHoliday from "./pages/Blog/EnjoyHolidayslider2";
 import Designeffect from "./pages/Blog/designeffectslider3";
-
-
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navforhome from "./pages/Home/Navforhome";
 import Navbar from "./pages/About/Navbar";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Home />
-            </>
-          }
-        />
-        <Route
-          path="/About"
-          element={
-            <>
-              <About />
-            </>
-          }
-        />
-        <Route
-          path="/Portfolio"
-          element={
-            <>
-              <Portfolio />
-            </>
-          }
-        />
-        <Route
-          path="/Product"
-          element={
-            <>
-              <Product />
-            </>
-          }
-        />
-        <Route
-          path="/Expertise"
-          element={
-            <>
-              <Expertise />
-            </>
-          }
-        />
-        <Route
-          path="/Contact"
-          element={
-            <>
-              <Contact />
-            </>
-          }
-        />
-        <Route
-          path="/Blog"
-          element={
-            <>
-              <Blog />
-            </>
-          }
-        />
-        <Route
-          path="/blog-single"
-          element={
-            <>
-              <BlogSingle />
-            </>
-          }
-        />
-        <Route
-          path="/enjoy-holiday"
-          element={
-            <>
-              <EnjoyHoliday />
-            </>
-          }
-        />
-        <Route
-          path="/design-effect"
-          element={
-            <>
-              <Designeffect />
-            </>
-          }
-        />
+
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/Product" element={<Product />} />
+        <Route path="/Expertise" element={<Expertise />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Blog" element={<Blog />} />
+        <Route path="/blog-single" element={<BlogSingle />} />
+        <Route path="/enjoy-holiday" element={<EnjoyHoliday />} />
+        <Route path="/design-effect" element={<Designeffect />} />
+
       </Routes>
 
       <Nextlevel />

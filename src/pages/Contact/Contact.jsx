@@ -1,10 +1,11 @@
 import React from "react";
 import { Building2, Phone } from "lucide-react"; // ✅ Added icons
+import Navbar from "../About/Navbar";
 
-export default function ContactUs() {
+ function ContactUs() {
   return (
     <section>
-      <section className="relative bg-[#f2fdfb]">
+      <section className="relative bg-[#f2fdfb]" style={{ fontFamily: "var(--font-poppins)" }}>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20 py-10 px-5 md:px-16 lg:px-32">
           {/* Left: Image */}
           <div className="w-full lg:w-1/2 flex justify-center mb-8 lg:mb-0">
@@ -16,11 +17,11 @@ export default function ContactUs() {
           </div>
 
           {/* Right: Contact Info */}
-          <div className="relative w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
+          <div className="relative w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left text-base/6">
             {/* ✅ Green Circle Behind Contact Us */}
-            <div className="hidden lg:block absolute -top-12 lg:left-65 w-40 h-40 bg-[#5bdfaf] rounded-full opacity-70 z-0"></div>
+            <div className="hidden lg:block absolute -top-12 lg:left-55 w-40 h-40 bg-[#5bdfaf] rounded-full opacity-70 z-0"></div>
 
-            <h1 className="flex items-center text-lg sm:text-xl md:text-2xl font-medium relative z-10 mb-2">
+            <h1 className="flex items-center text-lg relative z-10 mb-2">
               <span className="w-10 h-1 bg-green-500 mr-3"></span>
               Do you have any question
             </h1>
@@ -29,7 +30,7 @@ export default function ContactUs() {
               Contact Us
             </h2>
 
-            <p className="text-gray-600 max-w-md relative z-10 text-sm sm:text-base md:text-lg">
+            <p className="text-gray-600 max-w-lg relative z-10  font-medium mt-5" style={{ fontFamily: "var(--font-montserrat)" }}>
               We are located in Nigeria and we operate internationally, with
               clients from the US, UK, Canada, Australia, and many other
               countries.
@@ -41,14 +42,14 @@ export default function ContactUs() {
       {/* ✅ closed top section properly */}
 
       {/* Bottom Section */}
-      <div className="flex justify-center items-center w-full min-h-screen">
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-16 w-full max-w-6xl px-4 py-20">
+      <div className="flex justify-center items-center w-full">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-16 w-full max-w-6xl px-10 py-10">
           {/* Left: Form */}
           <div className="lg:w-1/2 relative">
             {/* Green solid line before title */}
             <div className="flex items-center justify-center md:justify-start mb-4">
               <span className="w-12 h-1 bg-green-400 rounded mr-3"></span>
-              <p className="text-green-500 font-semibold uppercase text-lg tracking-wide">
+              <p className="font-semibold uppercase text-lg tracking-wide">
                 Work with us
               </p>
             </div>
@@ -56,7 +57,7 @@ export default function ContactUs() {
               Let's build something <br /> awesome together
             </h1>
 
-            <form className="space-y-4">
+            <form className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
                   Name
@@ -98,9 +99,9 @@ export default function ContactUs() {
 
           {/* Right: Contact Details */}
           <div className="lg:w-1/2 flex justify-evenly items-center ">
-            <div className="flex flex-col space-y-20 relative">
+            <div className="flex flex-col space-y-5 relative gap-10">
               {/* Vertical Line */}
-              <div className="absolute left-5 top-0 -bottom-8 w-px bg-gray-300"></div>
+              <div className="absolute left-5 top-0 bottom-12 w-px bg-gray-300"></div>
 
               {/* Address */}
               <div className="flex items-start space-x-3 relative">
@@ -124,6 +125,7 @@ export default function ContactUs() {
                 <div className="relative z-10">
                   <Phone className="w-10 h-10 text-green-600 bg-white p-1 rounded-md border border-gray-300" />
                 </div>
+
                 <div>
                   <h4 className="text-xl font-semibold text-gray-900 mb-2">
                     Or drop us a line
@@ -134,10 +136,38 @@ export default function ContactUs() {
                   <p className="text-gray-600">+234 810 7565 941</p>
                 </div>
               </div>
+              {/* loop for green dots */}
+              <div className="absolute hidden lg:block lg:right-0 xl:right-0 xl:bottom-90 lg:bottom-90">
+                <div className="grid grid-cols-10 gap-2">
+                  {Array.from({ length: 90 }).map((_, i) => (
+                    <span
+                      key={i}
+                      className="w-2 h-2 bg-green-400 rounded-full"
+                    ></span>
+                  ))}
+                </div>
+
+                {/* green Line / Curve */}
+                <img
+                  src="public/Image/Partner-greenline.png"
+                  alt="Decorative Line"
+                  className="absolute -top-100 h-200 w-32 hidden xl:block lg:w-96 "
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+  );
+}
+
+
+export default function App() {
+  return (
+    <>
+    <Navbar/>
+    <ContactUs/>
+    </>
   );
 }
