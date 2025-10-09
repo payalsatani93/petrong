@@ -37,7 +37,7 @@ function App() {
           path="/About"
           element={
             <>
-              <Navbar />
+         
               <About />
             </>
           }
@@ -46,7 +46,7 @@ function App() {
           path="/Portfolio"
           element={
             <>
-              <Navbar />
+        
               <Portfolio />
             </>
           }
@@ -55,7 +55,7 @@ function App() {
           path="/Product"
           element={
             <>
-              <Navbar />
+        
               <Product />
             </>
           }
@@ -64,7 +64,7 @@ function App() {
           path="/Expertise"
           element={
             <>
-              <Navbar />
+      
               <Expertise />
             </>
           }
@@ -73,7 +73,7 @@ function App() {
           path="/Contact"
           element={
             <>
-              <Navbar />
+         
               <Contact />
             </>
           }
@@ -82,7 +82,7 @@ function App() {
           path="/Blog"
           element={
             <>
-              <Navbar />
+          
               <Blog />
             </>
           }
@@ -91,7 +91,7 @@ function App() {
           path="/blog-single"
           element={
             <>
-              <Navbar />
+      
               <BlogSingle />
             </>
           }
@@ -100,7 +100,7 @@ function App() {
           path="/enjoy-holiday"
           element={
             <>
-              <Navbar />
+         
               <EnjoyHoliday />
             </>
           }
@@ -109,7 +109,7 @@ function App() {
           path="/design-effect"
           element={
             <>
-              <Navbar />
+           
               <Designeffect />
             </>
           }
