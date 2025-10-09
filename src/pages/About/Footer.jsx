@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="relative max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Quick Links */}
         <div>
-          <h3 className="text-white  font-Montserrat font-semibold text-[16px] mb-4">QUICK LINKS</h3>
+          <h3 className="text-white  font-semibold text-[16px] mb-4" style={{ fontFamily: "var(--font-Montserra)" }}>QUICK LINKS</h3>
           <ul className="space-y-2 text-[13px] text-Montserrat text-gray-400">
             {[
               { name: "Home", path: "/" },
@@ -45,7 +45,7 @@ export default function Footer() {
 
         {/* Services */}
         <div>
-          <h3 className="text-white font-semibold text-[16px] mb-4 font-Montserrat">
+          <h3 className="text-white font-semibold text-[16px] mb-4 "  style={{ fontFamily: "var(--font-Montserra)" }}>
             OUR SERVICES
           </h3>
           <ul className="space-y-2 text-[13px] text-gray-400">
@@ -59,7 +59,7 @@ export default function Footer() {
 
         {/* Technologies */}
         <div>
-          <h3 className="text-white font-semibold text-[16px] mb-4 font-Montserrat">
+          <h3 className="text-white font-semibold text-[16px] mb-4"  style={{ fontFamily: "var(--font-Montserra)" }}>
             OUR TECHNOLOGIES
           </h3>
           <ul className="space-y-2 text-[13px] text-gray-400">
@@ -71,7 +71,7 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <h3 className="text-white font-semibold text-[16px] mb-4 font-Montserrat">
+          <h3 className="text-white font-semibold text-[16px] mb-4 "  style={{ fontFamily: "var(--font-Montserra)" }}>
             CONTACT & FOLLOW US
           </h3>
           <div className="flex space-x-4 mb-4 text-xl">
@@ -130,7 +130,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="relative text-start p-9 text-xs sm:text-sm text-gray-300 font-Montserrat">
+      <div className="relative text-start p-9 text-xs sm:text-sm text-gray-300 " style={{ fontFamily: "var(--font-Montserra)" }}>
         Petrong Software Solution Copyright 2022  - All Right Reserved
       </div>
     </footer>

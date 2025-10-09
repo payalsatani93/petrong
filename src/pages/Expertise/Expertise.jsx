@@ -1,41 +1,52 @@
-import React from "react";
+import Navbar from "../About/Navbar";
 
 export default function Expertise() {
   return (
-    <div>
+    <div className="font-Poppins">
+      {/* Navbar */}
+      <Navbar />
+
       {/* Header Section */}
-      <div className="bg-[#EBFAF4] py-8 xl:py-15 px-6 md:px-16 relative">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between relative">
-          {/* Image */}
+      <section className="relative bg-[#EBFAF4] py-16 md:py-24 h-auto xl:h-180 px-6 md:px-16 overflow-hidden">
+        {/* Right Side Decorative Line Image */}
+        <img
+          src="/Image/EXPERTISE-line.png"
+          alt="Expertise Line"
+          className="absolute hidden xl:block xl:-top-0 xl:left-65 2xl:-top-0 2xl:left-128 max-w-full h-230 object-contain"
+        />
+
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between relative z-10 gap-10">
+          {/* Left - Image */}
           <div className="md:w-1/2 w-full flex justify-center mb-8 md:mb-0">
             <img
               src="/Image/Expertise.png"
               alt="Expertise"
-              className="w-full max-w-md md:max-w-lg aspect-[3/2] object-cover rounded-2xl"
+              className="w-full max-w-[400px] sm:max-w-[450px] md:max-w-[500px] lg:max-w-[550px] xl:max-w-[600px] object-cover rounded-2xl"
             />
           </div>
 
-          {/* Text and Circle */}
-          <div className="md:w-1/2 w-full flex flex-col relative px-6 py-10">
-            {/* Circle */}
-            <div className="hidden xl:block absolute bottom-[92px] right-[70px] w-32 h-32 bg-[#7BEBC1] rounded-full z-0"></div>
+          {/* Right - Text + Circle */}
+          <div className="md:w-1/2 w-full flex flex-col relative px-4 md:px-8 text-center">
+            {/* Decorative Circle */}
+            <div className="hidden 2xl:block absolute bottom-[70px] right-[70px] w-32 h-32 bg-[#7BEBC1] rounded-full"></div>
 
-            {/* Text */}
-            <div className="text-center max-w-2xl z-10 mx-auto">
-              <div className="flex items-center justify-center mb-4">
-                <div className="w-15 h-[4px] bg-[#4FD1A1] mr-2"></div>
+            {/* Text Content */}
+            <div className="relative z-10">
+              <div className="flex items-center justify-center   mb-4">
+                <div className="w-16 h-[4px] bg-[#4FD1A1] mr-2"></div>
                 <h2 className="text-3xl md:text-4xl font-bold text-black">
                   EXPERTISE
                 </h2>
               </div>
-              <p className="text-black text-lg md:text-2xl font-bold">
-                We provide reliable service to our client that is <br />
-                unbeatable
+              <p className="text-black text-lg md:text-2xl font-semibold leading-relaxed">
+                We provide reliable service to our clients that is <br />
+                unbeatable.
               </p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
       {/* Section 1 - Digital Product Design */}
       <div className="flex flex-col md:flex-row max-w-7xl mx-auto items-center justify-self-center-center py-2 px-6 md:px-16">
         {/* Content */}
@@ -99,7 +110,7 @@ export default function Expertise() {
           <img
             src="/Image/Digital Product.png"
             alt="Digital Product"
-            className="w-full max-w-xs xl:absolute xl:top-120 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl  object-cover rounded-2xl"
+            className="w-full max-w-xs xl:absolute xl:top-188 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl  object-cover rounded-2xl"
           />
         </div>
       </div>

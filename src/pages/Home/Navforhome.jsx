@@ -16,7 +16,7 @@ export default function Navforhome() {
   return (
    <div>
       {/* Navbar */}
-      <nav className="bg-transparent p-2 text-white z-50   lg:flex lg:justify-end lg:right-50  w-full absolute">
+      <nav className="bg-transparent p-8 text-white z-50   lg:flex lg:justify-end lg:right-50  w-full absolute">
         <div className="flex justify-between items-center">
 
           {/* Desktop Menu */}

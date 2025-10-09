@@ -2,7 +2,9 @@ import React from "react";
 
 function Partnership() {
   return (
-    <section className="flex flex-col md:flex-row relative bg-black text-white md:bg-[#ebfaf4] md:text-black h-auto md:h-[480px] lg:h-[650px] xl:h-[680px] 2xl:h-[780px] gap-6 md:gap-10 lg:gap-10 xl:gap-10 2xl:gap-10 overflow-hidden">
+    <section className="flex flex-col md:flex-row relative bg-black text-white md:bg-[#ebfaf4]
+     md:text-black h-auto md:h-[480px] lg:h-[650px] xl:h-[680px] 2xl:h-[780px] gap-6 md:gap-10 lg:gap-10 xl:gap-10 2xl:gap-10
+      overflow-hidden"style={{ fontFamily: "var(--font-montserrat)" }}>
       {/* Left Side: Image */}
       <div className="w-full md:w-1/2 h-[280px] sm:h-[350px] md:h-full flex items-center justify-center bg-black  relative">
         <img
@@ -37,7 +39,7 @@ function Partnership() {
             your own business.
           </p>
           <div className="mt-6 gap-6 flex justify-center md:justify-start">
-            <button className="bg-green-500 hover:bg-green-600 text-white px-7 py-3 rounded-full font-semibold transition">
+            <button className="bg-[#00D285] hover:bg-green-600 text-white px-7 py-3 rounded-full font-semibold transition">
               Partnership Details
             </button>
           </div>

@@ -40,7 +40,7 @@ export default function Testimonial() {
         {/* Left Text Section */}
         <div className="text-black max-w-md text-center md:text-left flex-shrink-0 mt-4 md:-mt-40">
           <div className="flex items-center justify-center md:justify-start">
-            <span className="w-12 h-1 bg-green-400 rounded mr-3"></span>
+            <span className="w-12 h-1 bg-[#00D285] rounded mr-3"></span>
             <p className="font-semibold uppercase text-lg">TESTIMONIALS</p>
           </div>
           <p className="text-lg font-semibold mt-3">
@@ -113,13 +113,15 @@ export default function Testimonial() {
           >
             <button
               onClick={prevTestimonial}
-              className="p-3 w-12 h-12 sm:w-12 sm:h-12 flex text-xl font-semibold justify-center items-center rounded-full border-2 border-emerald-500 text-emerald-500 hover:text-emerald-500 hover:bg-black shadow-md transition"
+              className="p-3 w-12 h-12 sm:w-12 sm:h-12 flex text-xl font-semibold justify-center items-center rounded-full border-2 border-[#00D285]
+               text-[#00D285]  hover:bg-black shadow-md transition"
             >
               ▲
             </button>
             <button
               onClick={nextTestimonial}
-              className="p-3 w-12 h-12 sm:w-12 sm:h-12 flex text-xl font-semibold justify-center items-center rounded-full border-2 border-emerald-500 text-emerald-500 hover:bg-black transition"
+              className="p-3 w-12 h-12 sm:w-12 sm:h-12 flex text-xl font-semibold justify-center items-center rounded-full border-2 border-[#00D285]
+               text-[#00D285] hover:bg-black transition"
             >
               ▼
             </button>
@@ -129,7 +131,7 @@ export default function Testimonial() {
 
       {/* --- ABOUT PACIOLI (Below Everything) --- */}
       <div className="flex items-center justify-center md:justify-start mt-20 mb-10 w-full max-w-6xl px-4 sm:px-0">
-        <span className="w-12 h-1 bg-green-400 rounded mr-3"></span>
+        <span className="w-12 h-1 bg-[#00D285] rounded mr-3"></span>
         <p className="font-semibold uppercase text-lg tracking-wide">
           ABOUT PACIOLI
         </p>
