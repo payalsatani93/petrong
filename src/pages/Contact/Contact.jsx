@@ -1,7 +1,8 @@
 import React from "react";
 import { Building2, Phone } from "lucide-react"; // ✅ Added icons
+import Navbar from "../About/Navbar";
 
-export default function ContactUs() {
+ function ContactUs() {
   return (
     <section>
       <section className="relative bg-[#f2fdfb]" style={{ fontFamily: "var(--font-poppins)" }}>
@@ -158,5 +159,15 @@ export default function ContactUs() {
         </div>
       </div>
     </section>
+  );
+}
+
+
+export default function App() {
+  return (
+    <>
+    <Navbar/>
+    <ContactUs/>
+    </>
   );
 }
