@@ -50,7 +50,7 @@ export default function OurPromise() {
   ];
 
   return (
-    <section className="bg-white py-16 px-6 lg:px-20">
+    <section className="bg-white py-16 px-6 lg:px-20" style={{ fontFamily: "var(--font-poppins)" }}>
       <div className="max-w-7xl mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
           Our Promise
@@ -65,7 +65,7 @@ export default function OurPromise() {
         {promises.map((item, index) => (
           <div
             key={index}
-            className="bg-emerald-50 rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow duration-300"
+            className="bg-[#EBFAF4] rounded-2xl p-8 shadow-sm hover:shadow-md  transition-shadow duration-300"
           >
             <div className="mb-4 flex gap-5 ">{item.icon}
             <h3 className="text-xl font-semibold text-gray-900 mb-2">

@@ -30,10 +30,10 @@ function PetrongPacioli() {
             design for unique constraint.
           </p>
           <div className="mt-4 gap-6 flex justify-center md:justify-start">
-            <button className="bg-green-500 hover:bg-green-600 text-white px-7 py-3 rounded-full font-semibold transition">
+            <button className="bg-[#00D285] hover:bg-green-600 text-white px-7 py-3 rounded-full font-semibold transition">
               Pacioli
             </button>
-            <button className="bg-green-500 hover:bg-green-600 text-white px-7 py-3 rounded-full font-semibold transition">
+            <button className="bg-[#00D285] hover:bg-green-600 text-white px-7 py-3 rounded-full font-semibold transition">
               Demo Video
             </button>
           </div>
