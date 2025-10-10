@@ -5,7 +5,7 @@ export default function Hero() {
 
   return (
     <section
-      className="w-100% 2xl:h-235 xl:h-200 lg:h-160 md:h-150 sm:200 h-170  bg-white overflow-hidden flex relative "
+      className="w-100% 2xl:h-235 xl:h-200 lg:h-160 md:h-140 sm:h-140 h-170  bg-white overflow-hidden flex relative "
       style={{ fontFamily: "var(--font-poppins)" }}
     >
       
@@ -17,7 +17,7 @@ export default function Hero() {
           {/* ✅ Hero Content Centered */}
           <div className="text-white flex flex-col justify-center items-start px-10 md:px-16 lg:px-20 w-full">
             <h1
-              className="xl:text-[4rem] lg:text-[2.5rem] md:text-[3rem] sm:text-[3rem] text-[2.1rem] 
+              className="xl:text-[4rem] lg:text-[3rem] md:text-[3rem] sm:text-[3rem] text-[2.1rem] 
             font-bold"
             >
               Get the next <br /> level developments.

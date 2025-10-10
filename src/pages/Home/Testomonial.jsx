@@ -108,8 +108,8 @@ export default function Testimonial() {
           </div>
           {/* Navigation Buttons */}
           <div
-            className="flex sm:flex-row lg:flex-col justify-center gap-4 w-full sm:w-auto
-    mt-4 lg:mt-0 lg:absolute lg:right-[-40px] xl:right-[-60px] lg:top-1/2 lg:-translate-y-1/2 z-40"
+            className="flex md:flex-row lg:flex-col justify-center gap-4 w-full sm:w-auto
+    mt-4 lg:mt-0 lg:absolute lg:right-[-30px] xl:right-[-60px] lg:top-1/2 lg:-translate-y-1/2 z-40"
           >
             <button
               onClick={prevTestimonial}
